@@ -40,6 +40,7 @@ public abstract class FloatToStringTest {
     assertF2sEquals("NaN", Float.NaN);
     assertF2sEquals("Infinity", Float.POSITIVE_INFINITY);
     assertF2sEquals("-Infinity", Float.NEGATIVE_INFINITY);
+    assertF2sEquals("2147483904", 2147483904f);
   }
 
   @Test
